@@ -1,0 +1,41 @@
+---
+title: "Analyzing Responses to the 2017 Stack Overflow Developer Survey"
+output: html_notebook
+---
+I have created this data analysis notebook to help me learn about R, xgboost, the data.table package, and the tidyverse packages. The **dataset** that I will be exploring is the responses to the 2017 Stack Overflow Developer Survey, which can be found [here](https://www.kaggle.com/stackoverflow/so-survey-2017) on kaggle. Other resources/references can be found at the [end](#references) of this notebook. 
+
+## Libraries
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(data.table)
+```
+
+## Data
+```{r}
+dt <- fread("data/survey_results_public.csv")
+```
+
+### Visualization
+
+## Model
+TODO: use xgboost to predict a variable
+
+## References
+Dataset:
+
+* [2017 Stack Overflow Developer Survey](https://www.kaggle.com/stackoverflow/so-survey-2017)
+
+General R:
+
+* Wickham and Grolemund's open source book: [R for Data Science](http://r4ds.had.co.nz/index.html)
+
+data.table:
+
+* https://www.listendata.com/2016/10/r-data-table.html
+* https://github.com/Rdatatable/data.table/wiki/Getting-started
+* https://s3.amazonaws.com/assets.datacamp.com/blog_assets/datatable_Cheat_Sheet_R.pdf
+* https://www.r-bloggers.com/understanding-data-table-rolling-joins/
+
+Inspiration to guide my data visualization:
+
+* The kaggle notebook ["Novice to Grandmaster - What Data Scientists say?"](https://www.kaggle.com/ash316/novice-to-grandmaster/notebook)
