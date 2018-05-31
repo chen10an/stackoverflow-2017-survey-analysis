@@ -1,8 +1,10 @@
 ---
-title: "Analyzing Responses to the 2017 Stack Overflow Developer Survey"
+title: "Analyzing Responses to the 2018 Stack Overflow Developer Survey"
 output: html_notebook
 ---
-I have created this data analysis notebook to help me learn about R, xgboost, the data.table package, and the tidyverse packages. The **dataset** that I will be exploring is the responses to the 2017 Stack Overflow Developer Survey, which can be found [here](https://www.kaggle.com/stackoverflow/so-survey-2017) on kaggle. Other resources/references can be found at the [end](#references) of this notebook. 
+I have created this data analysis notebook to help me learn about R, xgboost, the data.table package, and the tidyverse packages. The **dataset** that I will be exploring is the responses to the 2018 Stack Overflow Developer Survey, which can be found [here][data]. Other resources/references can be found at the [end](#references) of this notebook. 
+
+Note: the survey dataset is _not_ included in this GitHub repository.
 
 ## Libraries
 ```{r message=FALSE, warning=FALSE}
@@ -23,7 +25,7 @@ TODO: use xgboost to predict a variable
 ## References
 Dataset:
 
-* [2017 Stack Overflow Developer Survey](https://www.kaggle.com/stackoverflow/so-survey-2017)
+* [2018 Stack Overflow Developer Survey][data]
 
 General R:
 
@@ -39,3 +41,6 @@ data.table:
 Inspiration to guide my data visualization:
 
 * The kaggle notebook ["Novice to Grandmaster - What Data Scientists say?"](https://www.kaggle.com/ash316/novice-to-grandmaster/notebook)
+
+
+[data]: https://insights.stackoverflow.com/survey
